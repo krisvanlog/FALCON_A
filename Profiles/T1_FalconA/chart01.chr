@@ -1,0 +1,125 @@
+<chart>
+id=132450103176901464
+comment=Trade is allowed
+symbol=AUDUSD
+period=1440
+leftpos=1876
+digits=5
+scale=2
+graph=0
+fore=0
+grid=1
+volume=0
+scroll=1
+shift=0
+ohlc=1
+one_click=0
+one_click_btn=1
+askline=0
+days=0
+descriptions=0
+shift_size=20
+fixed_pos=0
+window_left=0
+window_top=0
+window_right=416
+window_bottom=290
+window_type=1
+background_color=0
+foreground_color=16777215
+barup_color=65280
+bardown_color=65280
+bullcandle_color=0
+bearcandle_color=16777215
+chartline_color=65280
+volumes_color=3329330
+grid_color=10061943
+askline_color=255
+stops_color=255
+
+<window>
+height=100
+fixed_height=0
+<indicator>
+name=main
+</indicator>
+</window>
+
+<expert>
+name=02_FALCON_B\Falcon_B
+flags=279
+window_num=0
+<inputs>
+Header1=----------EA General Settings-----------
+MagicNumber=8118201
+TerminalType=1
+R_Management=true
+Slippage=3
+IsECNbroker=false
+OnJournaling=true
+Header2=----------Trading Rules Variables-----------
+FastMAPeriod=10
+SlowMAPeriod=40
+KeltnerPeriod=15
+KeltnerMulti=3
+CloseAllOnFridays=true
+Header3=----------Position Sizing Settings-----------
+Lot_explanation=If IsSizingOn = true, Lots variable will be ignored
+Lots=0.01
+IsSizingOn=false
+Risk=1.0
+MaxPositionsAllowed=1
+Header4=----------TP & SL Settings-----------
+UseFixedStopLoss=true
+FixedStopLoss=0.0
+IsVolatilityStopOn=true
+VolBasedSLMultiplier=3.0
+UseFixedTakeProfit=true
+FixedTakeProfit=0.0
+IsVolatilityTakeProfitOn=true
+VolBasedTPMultiplier=6.0
+Header5=----------Hidden TP & SL Settings-----------
+UseHiddenStopLoss=false
+FixedStopLoss_Hidden=0.0
+IsVolatilityStopLossOn_Hidden=false
+VolBasedSLMultiplier_Hidden=0.0
+UseHiddenTakeProfit=false
+FixedTakeProfit_Hidden=0.0
+IsVolatilityTakeProfitOn_Hidden=false
+VolBasedTPMultiplier_Hidden=0.0
+Header6=----------Breakeven Stops Settings-----------
+UseBreakevenStops=false
+BreakevenBuffer=0.0
+Header7=----------Hidden Breakeven Stops Settings-----------
+UseHiddenBreakevenStops=false
+BreakevenBuffer_Hidden=0.0
+Header8=----------Trailing Stops Settings-----------
+UseTrailingStops=false
+TrailingStopDistance=0.0
+TrailingStopBuffer=0.0
+Header9=----------Hidden Trailing Stops Settings-----------
+UseHiddenTrailingStops=false
+TrailingStopDistance_Hidden=0.0
+TrailingStopBuffer_Hidden=0.0
+Header10=----------Volatility Trailing Stops Settings-----------
+UseVolTrailingStops=false
+VolTrailingDistMultiplier=0.0
+VolTrailingBuffMultiplier=0.0
+Header11=----------Hidden Volatility Trailing Stops Settings-----------
+UseHiddenVolTrailing=false
+VolTrailingDistMultiplier_Hidden=0.0
+VolTrailingBuffMultiplier_Hidden=0.0
+Header12=----------Volatility Measurement Settings-----------
+atr_period=14
+Header13=----------Set Max Loss Limit-----------
+IsLossLimitActivated=false
+LossLimitPercent=50.0
+Header14=----------Set Max Volatility Limit-----------
+IsVolLimitActivated=false
+VolatilityMultiplier=3.0
+ATRTimeframe=60
+ATRPeriod=14
+</inputs>
+</expert>
+</chart>
+
